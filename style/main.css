@@ -10873,9 +10873,45 @@ footer p {
   margin-left: -10px;
 }
 
-.navbar-store .navbar-fixed-top.scrolled {
+.navbar-fixed-top.scrolled {
   background-color: #fff !important;
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
+}
+
+.page-home h5 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.page-home .store-trend-categories {
+  margin-top: 30px;
+}
+
+.page-home .store-new-product {
+  margin-top: 10px;
+}
+
+.component-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.component-categories:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  text-decoration: none;
+}
+
+.component-categories .categories-text {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #0c0d36;
+  margin-top: 12px;
 }
 /*# sourceMappingURL=main.css.map */
