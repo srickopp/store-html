@@ -5,7 +5,10 @@
 @import "navbar";
 
 @import "pages/home";
+@import "pages/details";
 
 @import "components/categories.scss";
 @import "components/products";
 @import "components/breadcrumbs";
+
+@import "pages/transitions/slide-fade";
